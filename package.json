@@ -1,0 +1,25 @@
+{
+  "name": "nodify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^3.0.0",
+    "good": "^6.4.0",
+    "hapi": "^11.1.1",
+    "joi": "^7.0.0",
+    "mongoose": "^4.2.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-watch": "^4.3.5"
+  }
+}
