@@ -9,4 +9,4 @@ var personSchema = new Schema({
 
 module.exports = {
 	Person: Mongoose.model("person", personSchema)
-}
+};
