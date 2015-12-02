@@ -8,3 +8,6 @@ nodify-dev:
                 - mongo
 mongo:
         image: mongo
+        volumes:
+                - "~/data:/data/db"
+                
